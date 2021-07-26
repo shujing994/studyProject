@@ -20,8 +20,7 @@ def love():
 
 
 print(love("阿赟"))
-print(love("阿shazi"))
-
+print(love("阿sh   azi"))
 
 # def decorator(func):
 #     def wrapper(*args, **kwargs):
