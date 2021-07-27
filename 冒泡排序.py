@@ -21,10 +21,11 @@ def func(list1):
     list2=list1.sort()
     print(list2)
     n=len(list1)
-    score=input('请输入数字： ')
+    score=int(input('请输入数字： '))
+
     for j in range (0,n-1):
         for i in range(0,n-1-j):
-            if list2[i]>= score >list2[j]:
+            if list1[i]>= score >list1[j]:
                 print(i)
 
 func(list1)
