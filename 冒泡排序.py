@@ -18,14 +18,14 @@ list1 = [4,2,7,1]
 
 def func(list1):
 
-    list2=list1.sort()
-    print(list2)
+    list1.sort()
+    print(list1)
     n=len(list1)
     score=int(input('请输入数字： '))
 
     for j in range (0,n-1):
         for i in range(0,n-1-j):
             if list1[i]>= score >list1[j]:
-                print(i)
+                print(i+1)
 
 func(list1)
