@@ -26,3 +26,4 @@ f=lambda a,f:(a/10)!=0 and f(int(a/10),f) or (a!=0 and print('%d' %(a%10)))
 factors=lambda x :filter(lambda i:x%i==0 and i,range(1,x))
 f=lambda x:sum(factors(x))==x
 print([(i,list(factors(i))) for i in list(filter(f,range(2,10001)))])
+
