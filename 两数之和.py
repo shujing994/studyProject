@@ -6,7 +6,7 @@
 
 #思路：挨个遍历，并且判断  num2 = target - num1，是否也在 list 中
 
-'''def func(nums,target):
+def func(nums,target):
 
     lens=len(nums)
     result=[]
@@ -17,7 +17,7 @@
                 result.append((i+1,j+1))
     return result
 
-print(func([2,5,7,3,4],7))'''
+print(func([2,5,7,3,4],7))
 
 
 #哈希字典
